@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Return returnVersion="2018v6.3" xmlns="http://www.irs.gov/efile" xmlns:efile="http://www.irs.gov/efile">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2019-11-03T18:01:56-05:00</ReturnTs>
+    <TaxYr>2019</TaxYr>
+    <TaxPeriodBeginDt>2014-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2014-12-31</TaxPeriodEndDt>
+    <SoftwareId>12345678</SoftwareId>
+    <OriginatorGrp>
+      <EFIN>123456</EFIN>
+      <OriginatorTypeCd>OnlineFiler</OriginatorTypeCd>
+    </OriginatorGrp>
+    <PINTypeCd>Self-Select On-Line</PINTypeCd>
+    <JuratDisclosureCd>Self Select PIN By ERO</JuratDisclosureCd>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>123456789</PrimarySSN>
+      <NameLine1Txt>Foo</NameLine1Txt>
+      <PrimaryNameControlTxt>FOO</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>123 Main St</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94103</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+
+  <ReturnData documentCnt="1">
+    <efile:IRS1040 documentId="123">
+      <efile:IndividualReturnFilingStatusCd>1</efile:IndividualReturnFilingStatusCd>
+      <efile:AggregateTaxAmt>0</efile:AggregateTaxAmt>
+      <efile:RefundProductCd>NO FINANCIAL PRODUCT</efile:RefundProductCd>
+    </efile:IRS1040>
+  </ReturnData>
+</Return>
