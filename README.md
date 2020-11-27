@@ -1,6 +1,12 @@
 # irs-1040-mef-validator
-This is an experiment to learn about how the MeF (Modernized e-File) Schemas work. To use this code, you'll need to register with the IRS as a software devloper and download the files for yourself.
+This is an experiment to learn about how the MeF (Modernized e-File) Schemas
+work. To use this code, you'll need to register with the IRS as a software
+devloper and download the files for yourself.
 
+The goal of this repo is to convert the IRS XSD schema into tooling that can be
+used more readily by the JS ecosystem: a Typescript definition for the forms,
+and a jsonschema for the extra validations beyond the type system (max/min
+length, etc.)
 
 ## setup
 ```bash
