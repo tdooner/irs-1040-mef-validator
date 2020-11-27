@@ -24,4 +24,6 @@ The file is called something like IMF_Schema_2018_Updates.zip
 unzip ~/Downloads/IMF_Schema_2018_Updates.zip
 unzip efile1040x_2018v6.3.zip
 rm -r Attachment\ to\ MeF\ IMF\ Schemas\ 9.16.19\ FINAL\ v2.pdf Diffs1040x_2018v6.2_2018v6.3 efile1040x_2018v6.*.zip
+
+# you have to replace the line with 0000000000.000000000000 in the schema
 ```
